@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.nav__bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 30px;
+
+    input[type="button"] {
+        background-color: red;
+        color: white;
+        border: 1px solid black;
+    }
+}
+
+.img__block {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    padding: 10px;
+    img {
+        height: 200px;
+    }
+}
+
+#leftPhoto {
+    background: blue;
+    width: 90%;
+}
+
+#rightPhoto {
+    background: green;
+    width: 10%;
+
+    img {
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Laba 2</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="nav__bar">
+                <input type="button" value="Левая колонка" onclick="showLeftPhoto()">
+                <input type="button" value="Обе две" onclick="showBothPhotos()">
+                <input type="button" value="Правая колонка" onclick="showRightPhoto()">
+            </div>
+            <section class="img__block">
+                <div class="image" id="leftPhoto">
+                    <img src="img/cat.jpg" alt="">
+                </div>
+                <div class="image" id="rightPhoto">
+                    <img src="img/dog.jpg" alt="">
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+<script src="js/script.js"></script>
+</html>
